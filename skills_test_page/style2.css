@@ -1,0 +1,90 @@
+
+
+body	{
+		background-image: url("http://upload.wikimedia.org/wikipedia/commons/f/f3/Hubble_Ultra_Deep_Field_part_d.jpg");
+		}
+		
+div 		{		
+		margin: 3 px;
+		text-align: center;
+		color: Yellow;
+		border: 1px solid Magenta;
+		background-color: Cyan;
+		float: left;
+		display: inline;
+		border-radius: -15%;
+		}
+
+.corner 	{
+		height: 215px;
+		width: 18%;
+		
+		background-image: url("/pix/sun.jpg");
+		background-position: center;
+		background-size: 96%;
+		
+		}
+		
+.headline
+		{
+		background-image: url("/pix/wood-texture.jpg");
+		height: 215px;
+		width: 63%;		
+		}
+		
+.barber	{
+		
+		height: 620px;
+		width: 11%;		
+		}
+		
+.center	{
+		background-image: url("/pix/japanews.jpg");
+		height: 620px;
+		width: 77%;		
+		}
+		
+.footer	{
+		background-image: url("/pix/wood-texture.jpg");
+		height: 13%;
+		width: 99%;
+		
+		}
+		
+#main	{
+		float: center;
+		border-color: Black;
+		height: 90%;
+		width: 99%;		
+		}
+		
+#footer  {
+		border-color: Silver;
+		height: 5%;
+		width: 99%;
+		}
+		
+#b1	{
+		background: url("/pix/poem.jpg");
+		background-position: center;
+		
+		}
+		
+#b2		{
+		background: url("/pix/waterfall.jpg");
+		background-position: center;
+		background-size: 540px;
+		}
+		
+		
+		
+unusedTags{		
+		background-image: url("/pix/waterfall.jpg");
+		
+		}
+		
+		
+		
+		
+		
+		

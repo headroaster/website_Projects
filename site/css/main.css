@@ -1,0 +1,158 @@
+/* html
+===================================================*/
+/* body
+===================================================*/
+
+* {
+  margin: 0;
+  padding: 5px;
+  color: green;
+}
+body {
+  font: 62.5%/1.5 papyrus, Sylfaen, serif;
+}
+#wrapper {
+  margin: 0 auto;
+  min-width: 100%;
+  max-width: 100%;
+}
+/* Header
+===================================================*/
+
+header {
+  background-color: gold;
+  height: 120px;
+  display: block;
+}
+header h1 {
+  font-size: 3em;
+  float: left;
+  margin: 10px 0 0 10px;
+}
+/* Nav
+===================================================*/
+
+#nav {
+  list-style-type: none;
+  list-style-position: inside;
+  float: right;
+}
+#nav li {
+  display: inline;
+  font-size: 1.5em;
+  margin: 15px 15px 0 5px;
+}
+#nav #active a {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+/* Content
+===================================================*/
+
+#content {
+  background-color: gold;
+  height: 600px;
+  display: block;
+}
+h2 {
+  font-size: 3em;
+  margin: 10px 5px 5px 10px;
+}
+#content #thumbs {
+  text-align: center;
+
+  margin: 5px;
+}
+h3 {
+
+  font-size: 3em;
+  text-align: center;
+  float: center;
+  margin: 5px;
+}
+#text {
+    margin-right: 50px;
+	padding: 55px;
+  font-size: 1.75em;
+  text-align: center;
+  float: right;
+  max-width: 500px;
+  min-width: 300px;
+}
+/* gallery
+===================================================*/
+
+#gallery {
+    clear:left;
+  list-style-type: none;
+  display: inline;
+  float:left;
+  max-width: 300px;
+  min-width: 300px;
+}
+#gallery li {
+
+    display: inline;
+
+
+  margin: 5px 0 0 10px;
+}
+#gallery li a img {
+  border: 3px solid red;
+}
+#gallery li a img:hover {
+  border: 3px solid blue;
+}
+h1 {
+  font-size: 2.25em;
+  text-align: center;
+  background-color: cyan;
+  padding: 10px 0;
+}
+img {
+  padding: 10px;
+}
+#leftc {
+
+    width: 19%;
+    height: 45%;
+
+    float: left;
+
+}
+#rightc {
+    padding: 100px;
+    width:80%;
+    height: 45%;
+
+}
+/* Footer
+===================================================*/
+footer {
+    width: 100%;
+    float: center;
+    clear: both;
+}
+footer p {
+
+  font-size: 3em;
+  color: green;
+  text-align: center;
+  background-color: gold;
+  padding: 10px;
+}
+/* Text and Links
+===================================================*/
+
+a {
+  color: #888;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  font-size: 22px;
+  text-decoration: underline;
+}
