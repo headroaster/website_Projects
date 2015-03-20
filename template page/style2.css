@@ -1,0 +1,121 @@
+
+
+body	{
+		background-color: Cyan;
+		margin: 3 px;
+		padding: 0px;
+		}
+
+div 		{
+
+		float: left;
+		margin: 3 px;
+		text-align: center;
+		color: Yellow;
+		border: 1px solid Magenta;
+		border-radius: -15%;
+		}
+
+.corner 	{
+		height: 215px;
+
+
+		background-image: url("sun.jpg");
+		background-position: center;
+		background-size: 100% 100%;
+	    background-repeat: no-repeat;
+		max-width: 11%;
+		min-width:11%;
+
+		}
+
+.headline
+		{
+
+		background-image: url("wood-texture.jpg");
+		height: 215px;
+		max-width: 77%;
+		min-width: 77%;
+		}
+
+.barber	{
+	background: url("waterfall.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+		height: 820px;
+		min-width:11%;
+		max-width: 11%;
+		}
+
+.center	{
+		background-size: 100% 100%;
+    	background-repeat: no-repeat;
+		background-image: url("japanews.jpg");
+		height: 820px;
+		min-width: 77%;
+		max-width: 77%;
+		}
+
+.footer	{
+	background-image: url("wood-texture.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;;
+
+		}
+
+#main	{
+
+
+		border-color: Black;
+		max-width:99%;
+		max-height:99%;
+		min-width:99%;
+		min-height:100%;
+		}
+
+#footer  {
+		float: bottom;
+
+		border-color: Silver;
+		height: 5%;
+		min-width: 99%;
+		max-width: 100%;
+		}
+
+#b1	{
+
+
+
+
+		}
+
+#b2		{
+
+
+
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+		}
+
+#c1		{
+
+
+
+
+}
+
+#c2		{
+
+
+
+
+}
+unusedTags{
+		background-image: url("/pix/waterfall.jpg");
+
+		}

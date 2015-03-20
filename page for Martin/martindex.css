@@ -1,0 +1,99 @@
+body {
+    background-image: url("mobo.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: Gold;
+    font-family: Georgia;
+}
+div h3 {
+
+    border-radius: 100%;
+    background-image: url("bluedots.jpg");
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: 2px 2px 15px Blue, -2px -2px 15px Blue;
+    color: Silver;
+    font-family: 'Arial Black';
+    min-height: 5%;
+    max-height: 5%;
+    min-width: 18%;
+    max-width: 18%;
+}
+div p {
+
+    border-radius:100%;
+    background-color: rgba(56, 56, 56, .75);
+    font-size: 1.45em;
+    text-shadow: 1px 1px 3px rgb(138, 043, 226), -1px -1px  3px rgb(138, 043, 226);
+    color: rgba(240, 240, 240,  1);
+}
+h6 {
+    float: right;
+    clear: left;
+    display: inline;
+    font-family: Trebuchet;
+    color: Red;
+}
+
+#2th {
+    align: left;
+    background-color: rgba(56, 56, 56, .75);
+}
+
+#plea {
+    font-size: 1.45em;
+    color: Silver;
+    background-color: rgba(56, 56, 56, .85);
+    font-family: Trebuchet;
+    text-shadow: 1px 1px 10px rgba(000, 000, 000, 1), -1px -1px 5px rgba(000, 000, 000, 1);
+}
+
+#p {
+    min-width: 99%;
+    max-width: 99%;
+    overflow-style: marquee-line;
+    marquee-style: scroll;
+    marquee-speed: slow;
+    font-size: 1.95em;
+    text-shadow: 2px 2px 15px Blue, -2px -2px 15px Blue;
+    color: Silver;
+    font-family: Impact;
+
+
+}
+
+h5  {
+
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px 5px Blue, -2px -2px 5px Blue;
+    color: Silver;
+    font-family: 'Arial Black';
+    min-width: 20%;
+    max-width: 20%;
+
+}
+#pc  {
+
+    float:right;
+
+}
+
+
+#custom{margin-right:50px;}
+
+#virus{margin-right: 150px;}
+
+#adware{margin-right: 200px;}
+
+#data{margin-right:250px;}
+
+#homenet{margin-right: 300px;}
+
+#hometheat{margin-right:350px;}
+
+#remote{margin-right: 400px;}
+
+#access{margin-right: 450px;}
+
+#consult{margin-right:500px;}
