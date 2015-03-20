@@ -9,7 +9,7 @@ div h3 {
 
     border-radius: 100%;
     background-image: url("bluedots.jpg");
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-align: center;
     text-shadow: 2px 2px 15px Blue, -2px -2px 15px Blue;
     color: Silver;
@@ -21,6 +21,7 @@ div h3 {
 }
 div p {
 
+    padding: 0px;
     border-radius:100%;
     background-color: rgba(56, 56, 56, .75);
     font-size: 1.45em;
@@ -78,22 +79,3 @@ h5  {
     float:right;
 
 }
-
-
-#custom{margin-right:50px;}
-
-#virus{margin-right: 150px;}
-
-#adware{margin-right: 200px;}
-
-#data{margin-right:250px;}
-
-#homenet{margin-right: 300px;}
-
-#hometheat{margin-right:350px;}
-
-#remote{margin-right: 400px;}
-
-#access{margin-right: 450px;}
-
-#consult{margin-right:500px;}
