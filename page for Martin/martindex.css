@@ -1,5 +1,6 @@
 body {
     background-image: url("mobo.jpg");
+    background-position: absolute;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: Gold;
