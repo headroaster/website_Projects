@@ -1,4 +1,5 @@
 body {
+
     background-image: url("mobo.jpg");
     background-position: absolute;
     background-size: 100% 100%;
@@ -21,13 +22,16 @@ div h3 {
     max-width: 18%;
 }
 div p {
-
+    margin-top: 0em;
+    margin-bottom:0em;
+    display: block;
+    float: left;
     padding: 0px;
-    border-radius:100%;
-    background-color: rgba(56, 56, 56, .75);
-    font-size: 1.45em;
-    text-shadow: 1px 1px 3px rgb(138, 043, 226), -1px -1px  3px rgb(138, 043, 226);
-    color: rgba(240, 240, 240,  1);
+    border-radius: 0%;
+    background-color: rgba(56, 56, 56, .95);
+    font-size: 1.75em;
+    text-shadow: 1px 1px 3px rgba(138, 043, 226, 1), -1px -1px 3px rgba(138, 043, 226, 1);
+    color: rgba(240, 240, 240, 1);
 }
 h6 {
     float: right;
@@ -36,12 +40,10 @@ h6 {
     font-family: Trebuchet;
     color: Red;
 }
-
 #2th {
     align: left;
     background-color: rgba(56, 56, 56, .75);
 }
-
 #plea {
     font-size: 1.45em;
     color: Silver;
@@ -49,23 +51,18 @@ h6 {
     font-family: Trebuchet;
     text-shadow: 1px 1px 10px rgba(000, 000, 000, 1), -1px -1px 5px rgba(000, 000, 000, 1);
 }
-
 #p {
     min-width: 99%;
     max-width: 99%;
-    overflow-style: marquee-line;
+    overflow-style: line;
     marquee-style: scroll;
-    marquee-speed: slow;
+    marquee-speed: 500;
     font-size: 1.95em;
     text-shadow: 2px 2px 15px Blue, -2px -2px 15px Blue;
     color: Silver;
     font-family: Impact;
-
-
 }
-
-h5  {
-
+h5 {
     font-size: 1.8em;
     text-align: center;
     text-shadow: 2px 2px 5px Blue, -2px -2px 5px Blue;
@@ -73,10 +70,16 @@ h5  {
     font-family: 'Arial Black';
     min-width: 20%;
     max-width: 20%;
+}
+#pc {
+    float: right;
+}
+#logo{
+            float: right;
+            background_color: Yellow;
 
 }
-#pc  {
-
-    float:right;
-
-}
+#logo img {
+                    padding-right: 70%;
+                    float: right;
+                    }
